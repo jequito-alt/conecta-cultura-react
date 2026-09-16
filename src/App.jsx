@@ -2,7 +2,7 @@ import Bienvenida from "./components/Bienvenida";
 import Cabecera from "./components/Cabecera";
 import TarjetaActividad from "./components/TarjetaActividad";
 import Navegacion from "./components/Navegacion";
-
+import PiePagina from "./components/PiePagina";
 function App() {
   return (
     <>
@@ -16,6 +16,7 @@ function App() {
           </div>
         </div>
       </main>
+      <PiePagina />
     </>
   );
 }
