@@ -46,7 +46,9 @@ JSON.stringify(inscripciones)
         >
           <option>Todas</option>
           <option>Música</option>
-          <option>Artes visuales</option>
+          <option>Fotografía</option>
+          <option>Artes visuales</option>       
+          
         </select>
         <Cartelera
           actividades={visibles}
