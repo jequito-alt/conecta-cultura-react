@@ -5,6 +5,9 @@ import DetalleActividad from "./pages/DetalleActividad";
 import AdminActividades from "./pages/admin/AdminActividades";
 import NoEncontrada from "./pages/NoEncontrada";
 import Navegacion from "./components/Navegacion";
+import { guardarInscripciones } from "./utils/persistencia";
+
+
 function App() {
   return (
     <>
